@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+.cerna {
+    background-color: black;
+}
+
+* {box-sizing: border-box;}
+
+.box-1 {
+    border-radius: 50%;
+}
+
+
+
+li {
+    display: inline-block;
+    margin: 2px 10px;
+}
+
+li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(27, 65, 98);
+}
+
+li > a:hover {
+    color: rgb(114, 73, 154);
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(27, 65, 98);
+}
+
+a:hover {
+    color: rgb(114, 73, 154);
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+}
+
+#pizza {
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+section {
+    display: flex;
+}
+
+.cenik {
+    flex: 1 0 100px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cenik ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cenik a {
+    display: block;
+    margin-top: 12px;
+    padding: 6px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
